@@ -1,4 +1,4 @@
-package com.gezhiwei.feign.test.feign;
+package com.gezhiwei.alt.feign.test.feign;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
@@ -6,7 +6,6 @@ import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import feign.Headers;
 import feign.Logger;
-import feign.Retryer;
 import feign.codec.Decoder;
 import feign.codec.Encoder;
 import org.springframework.beans.factory.ObjectFactory;
@@ -18,7 +17,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;

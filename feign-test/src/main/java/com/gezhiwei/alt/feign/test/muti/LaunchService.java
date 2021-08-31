@@ -1,6 +1,6 @@
-package com.gezhiwei.feign.test.muti;
+package com.gezhiwei.alt.feign.test.muti;
 
-import com.gezhiwei.feign.test.feign.RequestClient;
+import com.gezhiwei.alt.feign.test.feign.RequestClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

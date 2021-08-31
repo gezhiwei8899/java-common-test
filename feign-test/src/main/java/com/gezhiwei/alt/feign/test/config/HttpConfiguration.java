@@ -1,4 +1,4 @@
-package com.gezhiwei.feign.test.config;
+package com.gezhiwei.alt.feign.test.config;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;

@@ -1,4 +1,4 @@
-package com.gezhiwei.feign.test.feign;
+package com.gezhiwei.alt.feign.test.feign;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

@@ -8,6 +8,7 @@
     <version>0.0.4</version>
     <modules>
         <module>feign-test</module>
+        <module>java-alt</module>
     </modules>
     <packaging>pom</packaging>
 

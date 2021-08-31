@@ -1,4 +1,4 @@
-package com.gezhiwei.feign.test;
+package com.gezhiwei.alt.feign.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
