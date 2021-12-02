@@ -10,6 +10,8 @@
         <module>feign-test</module>
         <module>java-alt</module>
         <module>time-test</module>
+        <module>opencv</module>
+        <module>stack-track</module>
     </modules>
     <packaging>pom</packaging>
 
