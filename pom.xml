@@ -13,6 +13,7 @@
         <module>opencv</module>
         <module>stack-track</module>
         <module>gson</module>
+        <module>decimal</module>
     </modules>
     <packaging>pom</packaging>
 
