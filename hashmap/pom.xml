@@ -9,19 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-alt</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>tree</module>
-        <module>sort</module>
-        <module>binary-tree</module>
-        <module>java-stack</module>
-        <module>graph</module>
-    </modules>
+    <artifactId>hashmap</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

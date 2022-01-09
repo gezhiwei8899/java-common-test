@@ -17,6 +17,7 @@
         <module>java-object-test</module>
         <module>java-jinzhi</module>
         <module>java-string</module>
+        <module>hashmap</module>
     </modules>
     <packaging>pom</packaging>
 
