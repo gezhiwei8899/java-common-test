@@ -16,8 +16,8 @@ public class EightQueues {
 
     public void cal8Queues(int row) {
         // 终止条件
-        count++;
         if (row == 8) {
+            count++;
             printQueens(result);
             return;
         }
@@ -41,7 +41,7 @@ public class EightQueues {
                 return false;
             }
             // 左上
-            if (leftup > 0) {
+            if (leftup >= 0) {
                 if (result[i] == leftup) {
                     return false;
                 }
