@@ -7,17 +7,11 @@
     <artifactId>java-common-test</artifactId>
     <version>0.0.4</version>
     <modules>
-        <module>feign-test</module>
-        <module>java-alt</module>
-        <module>time-test</module>
-        <module>opencv</module>
-        <module>stack-track</module>
-        <module>gson</module>
-        <module>decimal</module>
-        <module>java-object-test</module>
-        <module>java-jinzhi</module>
-        <module>java-string</module>
-        <module>hashmap</module>
+        <module>java-native-test</module>
+        <module>java-algorithm</module>
+        <module>java-thirdpart-framework-test</module>
+        <module>java-thirdpart-tool-test</module>
+
     </modules>
     <packaging>pom</packaging>
 
