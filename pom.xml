@@ -18,7 +18,6 @@
         <module>java-jinzhi</module>
         <module>java-string</module>
         <module>hashmap</module>
-        <module>spring</module>
     </modules>
     <packaging>pom</packaging>
 
