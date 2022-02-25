@@ -14,6 +14,7 @@
 
     <modules>
         <module>feign-test</module>
+        <module>springboot-test-starter</module>
     </modules>
 
     <properties>
