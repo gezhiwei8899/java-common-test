@@ -11,7 +11,7 @@ public class PriotiyQueue {
         PriorityQueue<Integer> heap = new PriorityQueue<>(10, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o1 - o2;
+                return o2 - o1;
             }
         });
         heap.add(6);
@@ -19,9 +19,13 @@ public class PriotiyQueue {
         heap.add(2);
         heap.add(5);
 
+
         Integer peek = heap.peek();
         System.out.println(peek);
 
+        for (int i = 0; i < heap.size(); i++) {
+
+        }
 
         while (!heap.isEmpty()){
             Integer poll = heap.poll();
