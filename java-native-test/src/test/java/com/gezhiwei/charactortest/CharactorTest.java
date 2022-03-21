@@ -12,4 +12,21 @@ public class CharactorTest {
     }
 
 
+    @Test
+    public void testCharNumber() {
+        char a = 'a';
+        char b = 'z';
+
+        int c = abs(a, b);
+
+        System.out.println(c);
+    }
+
+    private int abs(char a, char b) {
+        int v = a - b;
+        if (v < 0) {
+            return v + 26;
+        }
+        return v;
+    }
 }
