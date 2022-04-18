@@ -7,17 +7,17 @@ import java.util.*;
  */
 public class Solution {
 
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(Node root) {
 
         List<List<Integer>> result = new ArrayList<>();
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
 
         result.add(Arrays.asList(root.val));
 
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
+            Node node = queue.poll();
 
             List<Integer> arr = new ArrayList<>();
 

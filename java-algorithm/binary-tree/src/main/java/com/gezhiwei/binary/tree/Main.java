@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        TreeNode root = new TreeNode();
+        Node root = new Node();
         solution.levelOrderBottom(root);
     }
 }
