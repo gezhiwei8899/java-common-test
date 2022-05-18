@@ -53,4 +53,14 @@ public class XorTest {
         System.out.println(x);
         System.out.println(y);
     }
+
+    @Test
+    public void swap() {
+        int a = 8,b = 10;
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        System.out.println(a + " - " +  b);
+    }
 }
