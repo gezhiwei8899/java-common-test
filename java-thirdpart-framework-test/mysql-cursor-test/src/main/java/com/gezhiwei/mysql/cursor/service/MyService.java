@@ -22,9 +22,9 @@ public class MyService {
     @Autowired
     private HikariDataSource hikariDataSource;
 
-    String sql = "select id from qcc_company_rel_company_sync limit 100";
+    String sql = "select id from case_search_sync_v3";
 
-    public void connect() throws SQLException, InterruptedException {
+    public void connectAsync() throws SQLException, InterruptedException {
         int n = 5;
         for (int i = 0; i < n; i++) {
             THREAD_POOL_EXECUTOR.submit(() -> {
@@ -42,5 +42,15 @@ public class MyService {
             });
         }
         THREAD_POOL_EXECUTOR.awaitTermination(1,TimeUnit.DAYS);
+    }
+
+    public void connect() throws SQLException {
+        Connection connection = hikariDataSource.getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(sql, ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
+        preparedStatement.setFetchSize(20);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        while (resultSet.next()) {
+            System.out.println(resultSet.getString("id"));
+        }
     }
 }
