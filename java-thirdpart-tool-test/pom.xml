@@ -14,6 +14,7 @@
 
     <modules>
         <module>gson-test</module>
+        <module>json-test</module>
     </modules>
 
     <properties>
